@@ -1,0 +1,134 @@
+@media(max-width: 1438px){
+    .hero-section h1{
+        font-size: 3.5rem;
+    }
+    
+    .main-section{
+        text-align: center;
+    }
+    
+    .main-section img{
+        display: none;
+    }
+
+    .text-contaner{
+        width: 80%;
+    }
+    .square-icon{
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .main2-section img{
+        width: 45%;
+    }
+
+    .main2-text{
+        width: 50%;
+
+    }
+
+    .main2-text h2{
+        font-size: 40.52px;
+        margin-bottom: 0px;
+    }
+
+    .bg-image{
+        background-size: 100% 80%;
+    }
+
+    .cta-carts-contanir{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 30px;
+    }
+    .cta-carts-contanir i{
+        font-size: 35px;
+        padding: 18px 35px;
+    }
+
+    footer{
+        grid-template-columns: 1fr;
+        justify-items: flex-start;
+        gap: 10px;
+
+    }
+
+    footer ul{
+        margin: 20px 0px;
+        column-gap: 12px;
+    }
+
+    
+
+}
+@media(max-width: 787px){
+    nav ul{
+        display: none;
+    }
+
+    .display{
+        display: inline;
+    }
+    section{
+        width: 95%;
+    }
+
+    .hero-section h1{
+        font-size: 2.5rem;
+    }
+
+    .hero-imgs{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .hero-img{
+        width: 100%;
+    }
+    .text-contaner > div{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .res-d-flex{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+    .main2-section img{
+        width: 90%;
+    }
+
+    .main2-text{
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .bg-image{
+        background-size: 100% 60%;
+    }
+
+
+    .cta-carts-contanir{
+        width: 60%;
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+
+    .cta-carts-contanir i{
+        font-size: 30px;
+        padding: 15px 30px;
+    }
+
+    footer{
+        justify-items:center;
+    }
+
+    footer ul{
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+        justify-items: start;
+    }
+}
